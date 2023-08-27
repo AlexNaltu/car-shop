@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg {
+  background-image: url('images/carbg.jpg');
+  background-size: cover;
+}
+
+.custom-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.custom-shop-bg {
+  background-image: url('images/carshop.jpg');
+  background-size: cover;
+}
