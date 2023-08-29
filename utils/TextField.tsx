@@ -6,7 +6,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 function TextFields() {
   return (
     <div>
-      <TextField.Root className="py-3 px-5 hover:bg-blue-600 mx-auto" radius="large">
+      <TextField.Root className="py-2 px-5 hover:bg-blue-600 mx-auto" radius="large">
         <TextField.Input placeholder="Search by make, model or keyword" />
         <TextField.Slot>
           <AiOutlineSearch size={30} />

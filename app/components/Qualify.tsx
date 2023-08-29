@@ -8,7 +8,7 @@ function Qualify() {
         <p className="text-xs md:text-lg ">Est. Vehicle Price</p>
         <p className="text-xl sm:text-5xl md:text-6xl flex items-center gap-2">$40,500</p>
         <Link
-          href="/CarsPage"
+          href="/"
           className="py-4 px-10 rounded-lg font-black my-5 bg-yellow-400 text-black text-xs lg:text-lg lg:px-24"
         >
           GET PRE-QUALIFIED

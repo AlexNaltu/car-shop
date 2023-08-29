@@ -1,8 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Eczar } from "next/font/google";
-import Navbar from "../components/nav/Navbar";
-import Footer from "../components/footer/Footer";
+import Navbar from "./components/nav/Navbar";
+import Footer from "./components/footer/Footer";
 import "@radix-ui/themes/styles.css";
 import { Theme } from "@radix-ui/themes";
 

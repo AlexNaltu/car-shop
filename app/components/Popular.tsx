@@ -1,5 +1,5 @@
 import React from "react";
-import Accordions from "../utils/Accordion";
+import Accordions from "../../utils/Accordion";
 
 function Popular() {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import ShopCard from "../utils/ShopCard";
+import ShopCard from "../../utils/ShopCard";
 
 function CarShop() {
   return (

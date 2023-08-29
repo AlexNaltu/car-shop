@@ -15,20 +15,15 @@ function Navbar() {
         <div className="flex gap-4 justify-between text-blue-600 my-6 items-center">
           <div className="flex gap-14 font-ligth">
             <Link
-              href="/CarsPage"
+              href="/"
               className="text-xl md:text-3l font-black"
             >
               CARSHOP
             </Link>
 
             <div className="hidden sm:inline-flex gap-8 text-base md:text-lg">
-              <Link
-                href="@/shop
-              "
-              >
-                Shop
-              </Link>
-              <Link href="#">Finance</Link>
+              <Link href="/shop/shoppage">Shop</Link>
+              <Link href="/studio">Finance</Link>
               <DropMenu />
             </div>
           </div>

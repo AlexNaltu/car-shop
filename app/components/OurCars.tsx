@@ -1,5 +1,5 @@
 import React from "react";
-import CarSlider from "../utils/CarSlider";
+import CarSlider from "../../utils/CarSlider";
 
 const Horizontal = () => {
   return <hr className="w-[90vw] my-2 mx-auto" />;

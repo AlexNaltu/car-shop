@@ -1,8 +1,8 @@
-import Qualify from "../components/Qualify";
-import CarShop from "../components/CarShop";
-import OurCars from "../components/OurCars";
-import ExpertReviews from "../components/ExpertReviews";
-import Popular from "../components/Popular";
+import Qualify from "./components/Qualify";
+import CarShop from "./components/CarShop";
+import OurCars from "./components/OurCars";
+import ExpertReviews from "./components/ExpertReviews";
+import Popular from "./components/Popular";
 
 export default function Home() {
   return (

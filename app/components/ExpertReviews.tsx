@@ -1,5 +1,5 @@
 import React from "react";
-import { ReviewsData } from "../app/data/ReviewsData";
+import { ReviewsData } from "../data/ReviewsData";
 import Image from "next/image";
 
 function ExpertReviews() {
