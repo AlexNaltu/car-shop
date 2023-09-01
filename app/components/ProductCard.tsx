@@ -1,5 +1,6 @@
 "use client";
 
+import { formatPrice } from "@/utils/formatPrice";
 import truncateText from "@/utils/truncate";
 import { Rating } from "@mui/material";
 import Image from "next/image";
@@ -15,9 +16,9 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
   return (
     <div
       onClick={() => router.push("/product/${data.id}")}
-      className="col-span-1 cursor-pointer border-[1.2px] border-slate-200 bg-slate-50 rounded-sm p-2 transition hover:scale-105 text-sm m-3 max-w-[500px]"
+      className="font-black col-span-1 cursor-pointer border-[1.2px] border-slate-200 bg-slate-50 rounded-sm p-2 transition hover:scale-105 text-sm m-3 max-w-[500px]"
     >
-      <div className="flex flex-col items-center w-full gap-1">
+      <div className="flex flex-col items-start w-full gap-1">
         <div className="aspect-square overflow-hidden relative w-full">
           <Image
             src={data.image}
@@ -26,12 +27,12 @@ const ProductCard: React.FC<ProductCardProps> = ({ data }) => {
             className="w-full h-full object-contain"
           />
         </div>
-        <div>
-          <h1>{data.name}</h1>
-          <p>{data.model}</p>
+        <div className="px-2">
+          <h1 className="font-extralight">{data.name}</h1>
+          <p className="text-xl">{data.model}</p>
           <p>{truncateText(data.description)}</p>
+          <div>{formatPrice(data.price)}</div>
         </div>
-        <Rating />
       </div>
     </div>
   );

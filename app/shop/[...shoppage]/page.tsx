@@ -8,8 +8,9 @@ interface pageProps {
 
 const page: React.FC<pageProps> = ({ params }) => {
   return (
-    <div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 w-[50vw]">
+    <div className="my-20">
+      <h1 className="w-[60vw] mx-auto p-2 font-black text-xl lg:text-5xl">Our Cars For Sale</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 w-[60vw] mx-auto">
         {products.map((product: any) => {
           return <ProductCard data={product} />;
         })}
